@@ -1,0 +1,259 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.String SceneObjectGUIDComponent::get_id()
+extern void SceneObjectGUIDComponent_get_id_m0F813C7775FB3743B91299C7CB9C49BC41AA900B (void);
+// 0x00000002 System.Void SceneObjectGUIDComponent::Awake()
+extern void SceneObjectGUIDComponent_Awake_m8FD1B2906E63AFA3C8B679999BDCA5A5E14A08F6 (void);
+// 0x00000003 System.Void SceneObjectGUIDComponent::Register()
+extern void SceneObjectGUIDComponent_Register_mD081AD075D26E01FEAD55B2AFEBA5A2C8227E2CC (void);
+// 0x00000004 System.Void SceneObjectGUIDComponent::OnValidate()
+extern void SceneObjectGUIDComponent_OnValidate_m3CF78274E1EB96220FD7BF2D5E132BAC54E8B1F1 (void);
+// 0x00000005 System.Void SceneObjectGUIDComponent::OnDestroy()
+extern void SceneObjectGUIDComponent_OnDestroy_mE8A385AB2CE038CE047E6ED46F440907B71B825C (void);
+// 0x00000006 System.Void SceneObjectGUIDComponent::.ctor()
+extern void SceneObjectGUIDComponent__ctor_m87AE8C5354CB886E28680506DCB5A254828E2CD5 (void);
+// 0x00000007 System.Boolean SceneObjectGUIDComponent::<Awake>b__4_0(SceneObjectGUIDComponent)
+extern void SceneObjectGUIDComponent_U3CAwakeU3Eb__4_0_m40928776E76BE361981552E930AA58E7136F9985 (void);
+// 0x00000008 SceneObjectGUIDManager SceneObjectGUIDManager::get_instance()
+extern void SceneObjectGUIDManager_get_instance_m8D66BB04A963CE444A9C71567446CA9B75AC1CDB (void);
+// 0x00000009 System.Void SceneObjectGUIDManager::set_instance(SceneObjectGUIDManager)
+extern void SceneObjectGUIDManager_set_instance_mA482B7721E1C297A99165A891EFF028D3FDBE86C (void);
+// 0x0000000A System.Void SceneObjectGUIDManager::.ctor()
+extern void SceneObjectGUIDManager__ctor_mDA1A41638E58948E183821212B0FF41436F87C0B (void);
+// 0x0000000B System.Boolean SceneObjectGUIDManager::get_IsInitiated()
+extern void SceneObjectGUIDManager_get_IsInitiated_m4F78BEF1600BCEC0D29F380844C346A396843EF2 (void);
+// 0x0000000C System.Void SceneObjectGUIDManager::Register(SceneObjectGUIDComponent)
+extern void SceneObjectGUIDManager_Register_m98404800CEC73D0D90485FEA9F611C70F517B7F7 (void);
+// 0x0000000D System.Boolean SceneObjectGUIDManager::Contains(System.String)
+extern void SceneObjectGUIDManager_Contains_m234A7EBC425F1868C3E5145EAC9BFE5E2AE2564C (void);
+// 0x0000000E System.Void SceneObjectGUIDManager::Deregister(SceneObjectGUIDComponent)
+extern void SceneObjectGUIDManager_Deregister_mD34F7E4301345845F20214FABC17B9F2F5B10A50 (void);
+// 0x0000000F SceneObjectGUIDComponent SceneObjectGUIDManager::GetComponent(System.String)
+extern void SceneObjectGUIDManager_GetComponent_m1DFE9EB1E6B6E9E266219FF95B902153FC07E157 (void);
+// 0x00000010 System.Void Unity.InteractiveTutorials.BaseCollisionBroadcaster::.ctor()
+extern void BaseCollisionBroadcaster__ctor_m6E9FE4A4EC1BDC56FC262B7F35BD17FAE8DEBA17 (void);
+// 0x00000011 System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::add_playerEnteredCollision(Unity.InteractiveTutorials.CollisionBroadcaster2D_EventHandler)
+extern void CollisionBroadcaster2D_add_playerEnteredCollision_m35527E2DB9967A3FECF678D52FB8F688B2D5E10F (void);
+// 0x00000012 System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::remove_playerEnteredCollision(Unity.InteractiveTutorials.CollisionBroadcaster2D_EventHandler)
+extern void CollisionBroadcaster2D_remove_playerEnteredCollision_m13E25566850589CD93C68C22F34B89BD8A8B2D4B (void);
+// 0x00000013 System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::add_playerExitedCollision(Unity.InteractiveTutorials.CollisionBroadcaster2D_EventHandler)
+extern void CollisionBroadcaster2D_add_playerExitedCollision_m4AE6DA6A5103E52E3E92FDD0D84177286012E5B7 (void);
+// 0x00000014 System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::remove_playerExitedCollision(Unity.InteractiveTutorials.CollisionBroadcaster2D_EventHandler)
+extern void CollisionBroadcaster2D_remove_playerExitedCollision_m4202312297B01E46D87CBEE0C0B4785A5F3822F7 (void);
+// 0x00000015 System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::add_playerEnteredTrigger(Unity.InteractiveTutorials.CollisionBroadcaster2D_EventHandler)
+extern void CollisionBroadcaster2D_add_playerEnteredTrigger_mE0AA851EE472649D1E47D031BD5C7D64F1A8F42B (void);
+// 0x00000016 System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::remove_playerEnteredTrigger(Unity.InteractiveTutorials.CollisionBroadcaster2D_EventHandler)
+extern void CollisionBroadcaster2D_remove_playerEnteredTrigger_m6958C879EBC8420563CCC37B77513CB537883A1F (void);
+// 0x00000017 System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::add_playerExitedTrigger(Unity.InteractiveTutorials.CollisionBroadcaster2D_EventHandler)
+extern void CollisionBroadcaster2D_add_playerExitedTrigger_m4D44CE7E8D4645601F7F56C9C9B4BA57A7A06D93 (void);
+// 0x00000018 System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::remove_playerExitedTrigger(Unity.InteractiveTutorials.CollisionBroadcaster2D_EventHandler)
+extern void CollisionBroadcaster2D_remove_playerExitedTrigger_mF42693764A8EFC1593DA6740BD5F4AB6B8E8302B (void);
+// 0x00000019 System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::OnCollisionEnter2D(UnityEngine.Collision2D)
+extern void CollisionBroadcaster2D_OnCollisionEnter2D_m7303C38583E6BE019851B95419ECAE1B1F57979E (void);
+// 0x0000001A System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::OnCollisionExit2D(UnityEngine.Collision2D)
+extern void CollisionBroadcaster2D_OnCollisionExit2D_m0ECE53F8A7E0A77160F069EBE4191B4B5C13430D (void);
+// 0x0000001B System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern void CollisionBroadcaster2D_OnTriggerEnter2D_mE5FDF8CC374F5BAF2581B58A60B3584BE09B25EB (void);
+// 0x0000001C System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::OnTriggerExit2D(UnityEngine.Collider2D)
+extern void CollisionBroadcaster2D_OnTriggerExit2D_m59ECD3D1A43697BBE859BC20D6EE9EB657F03936 (void);
+// 0x0000001D System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::.ctor()
+extern void CollisionBroadcaster2D__ctor_mBF8340BE93F6AC68B38472E1EB0FEB7ED1D1B481 (void);
+// 0x0000001E System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D::.cctor()
+extern void CollisionBroadcaster2D__cctor_m1D1A88059C8C92A72A99398AE7CDBD56DE6F3875 (void);
+// 0x0000001F System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::add_playerEnteredCollision(Unity.InteractiveTutorials.CollisionBroadcaster3D_EventHandler)
+extern void CollisionBroadcaster3D_add_playerEnteredCollision_m5A420C623CF7EE0236185C6E1AE91226822BCE57 (void);
+// 0x00000020 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::remove_playerEnteredCollision(Unity.InteractiveTutorials.CollisionBroadcaster3D_EventHandler)
+extern void CollisionBroadcaster3D_remove_playerEnteredCollision_m6564A39C2BA99B8DBB99EDE07D88DD6810BDBA12 (void);
+// 0x00000021 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::add_playerExitedCollision(Unity.InteractiveTutorials.CollisionBroadcaster3D_EventHandler)
+extern void CollisionBroadcaster3D_add_playerExitedCollision_mAF1F3501F21AA98791D52FCB9FA5527038A038AC (void);
+// 0x00000022 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::remove_playerExitedCollision(Unity.InteractiveTutorials.CollisionBroadcaster3D_EventHandler)
+extern void CollisionBroadcaster3D_remove_playerExitedCollision_m1D044D291BD87C2E3D7B4A61B5628A05A3C68D1B (void);
+// 0x00000023 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::add_playerEnteredTrigger(Unity.InteractiveTutorials.CollisionBroadcaster3D_EventHandler)
+extern void CollisionBroadcaster3D_add_playerEnteredTrigger_m4BDA8FA917B136DEBCC2960E5E113A398EB9197F (void);
+// 0x00000024 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::remove_playerEnteredTrigger(Unity.InteractiveTutorials.CollisionBroadcaster3D_EventHandler)
+extern void CollisionBroadcaster3D_remove_playerEnteredTrigger_m9D9D23CCE8280798EF53B35AEDD4A53DF9A0E2E5 (void);
+// 0x00000025 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::add_playerExitedTrigger(Unity.InteractiveTutorials.CollisionBroadcaster3D_EventHandler)
+extern void CollisionBroadcaster3D_add_playerExitedTrigger_mF83D976F430C44B161C8563460C1D0BF12258A50 (void);
+// 0x00000026 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::remove_playerExitedTrigger(Unity.InteractiveTutorials.CollisionBroadcaster3D_EventHandler)
+extern void CollisionBroadcaster3D_remove_playerExitedTrigger_mEC5336855720EF9CD3F184DCD4FF9A8427D70323 (void);
+// 0x00000027 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::OnCollisionEnter(UnityEngine.Collision)
+extern void CollisionBroadcaster3D_OnCollisionEnter_m4B2B35B694929D6B3FD124648939E92E5FFFA63E (void);
+// 0x00000028 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::OnCollisionExit(UnityEngine.Collision)
+extern void CollisionBroadcaster3D_OnCollisionExit_mE15D40F6B7E704604B502D41774AFB963284E043 (void);
+// 0x00000029 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::OnTriggerEnter(UnityEngine.Collider)
+extern void CollisionBroadcaster3D_OnTriggerEnter_mA02F7BEB53BEC995FF54602A55324A2D7B1D18AB (void);
+// 0x0000002A System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::OnTriggerExit(UnityEngine.Collider)
+extern void CollisionBroadcaster3D_OnTriggerExit_m33280A6F8F353EF223DCBE2EF5259BE68CC81D2D (void);
+// 0x0000002B System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::.ctor()
+extern void CollisionBroadcaster3D__ctor_mD94B2F197F0068A7818D19EA5B6D0399F07E8D93 (void);
+// 0x0000002C System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D::.cctor()
+extern void CollisionBroadcaster3D__cctor_m3541374B79EF597EE1C7FA2BBD5360109CAAEEEA (void);
+// 0x0000002D System.Void Unity.InteractiveTutorials.SelectionRoot::Update()
+extern void SelectionRoot_Update_mE74A316E6E54A3FF95F0ABA6D9C8A688BCF5887E (void);
+// 0x0000002E System.Void Unity.InteractiveTutorials.SelectionRoot::.ctor()
+extern void SelectionRoot__ctor_m8A0A5D5FDCF90DBE79148A23C61B89B95DCBF91C (void);
+// 0x0000002F System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D_EventHandler::.ctor(System.Object,System.IntPtr)
+extern void EventHandler__ctor_m704B0C83E7C1344DAA4537B42F83DC515B450DAA (void);
+// 0x00000030 System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D_EventHandler::Invoke(Unity.InteractiveTutorials.CollisionBroadcaster2D)
+extern void EventHandler_Invoke_m3F33AEC23CCB6C6E02A38A97A885C0E63063270A (void);
+// 0x00000031 System.IAsyncResult Unity.InteractiveTutorials.CollisionBroadcaster2D_EventHandler::BeginInvoke(Unity.InteractiveTutorials.CollisionBroadcaster2D,System.AsyncCallback,System.Object)
+extern void EventHandler_BeginInvoke_m97AA7C1BFD8093D92976872F67A8EAC10404D5AB (void);
+// 0x00000032 System.Void Unity.InteractiveTutorials.CollisionBroadcaster2D_EventHandler::EndInvoke(System.IAsyncResult)
+extern void EventHandler_EndInvoke_mB3D8D44045FE69842598D700842A1CC4622158D3 (void);
+// 0x00000033 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D_EventHandler::.ctor(System.Object,System.IntPtr)
+extern void EventHandler__ctor_m210C1A935C7651339CB93182787F810A7BC8D756 (void);
+// 0x00000034 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D_EventHandler::Invoke(Unity.InteractiveTutorials.CollisionBroadcaster3D)
+extern void EventHandler_Invoke_m1DE134E855DC4B13EF40AA2C062D35D6806FC6DB (void);
+// 0x00000035 System.IAsyncResult Unity.InteractiveTutorials.CollisionBroadcaster3D_EventHandler::BeginInvoke(Unity.InteractiveTutorials.CollisionBroadcaster3D,System.AsyncCallback,System.Object)
+extern void EventHandler_BeginInvoke_m33888473EE667139D898C7F4498B1FDB4F70F5A0 (void);
+// 0x00000036 System.Void Unity.InteractiveTutorials.CollisionBroadcaster3D_EventHandler::EndInvoke(System.IAsyncResult)
+extern void EventHandler_EndInvoke_m8393A57019C3EE2AC723B9EB413C9AD989BD3402 (void);
+static Il2CppMethodPointer s_methodPointers[54] = 
+{
+	SceneObjectGUIDComponent_get_id_m0F813C7775FB3743B91299C7CB9C49BC41AA900B,
+	SceneObjectGUIDComponent_Awake_m8FD1B2906E63AFA3C8B679999BDCA5A5E14A08F6,
+	SceneObjectGUIDComponent_Register_mD081AD075D26E01FEAD55B2AFEBA5A2C8227E2CC,
+	SceneObjectGUIDComponent_OnValidate_m3CF78274E1EB96220FD7BF2D5E132BAC54E8B1F1,
+	SceneObjectGUIDComponent_OnDestroy_mE8A385AB2CE038CE047E6ED46F440907B71B825C,
+	SceneObjectGUIDComponent__ctor_m87AE8C5354CB886E28680506DCB5A254828E2CD5,
+	SceneObjectGUIDComponent_U3CAwakeU3Eb__4_0_m40928776E76BE361981552E930AA58E7136F9985,
+	SceneObjectGUIDManager_get_instance_m8D66BB04A963CE444A9C71567446CA9B75AC1CDB,
+	SceneObjectGUIDManager_set_instance_mA482B7721E1C297A99165A891EFF028D3FDBE86C,
+	SceneObjectGUIDManager__ctor_mDA1A41638E58948E183821212B0FF41436F87C0B,
+	SceneObjectGUIDManager_get_IsInitiated_m4F78BEF1600BCEC0D29F380844C346A396843EF2,
+	SceneObjectGUIDManager_Register_m98404800CEC73D0D90485FEA9F611C70F517B7F7,
+	SceneObjectGUIDManager_Contains_m234A7EBC425F1868C3E5145EAC9BFE5E2AE2564C,
+	SceneObjectGUIDManager_Deregister_mD34F7E4301345845F20214FABC17B9F2F5B10A50,
+	SceneObjectGUIDManager_GetComponent_m1DFE9EB1E6B6E9E266219FF95B902153FC07E157,
+	BaseCollisionBroadcaster__ctor_m6E9FE4A4EC1BDC56FC262B7F35BD17FAE8DEBA17,
+	CollisionBroadcaster2D_add_playerEnteredCollision_m35527E2DB9967A3FECF678D52FB8F688B2D5E10F,
+	CollisionBroadcaster2D_remove_playerEnteredCollision_m13E25566850589CD93C68C22F34B89BD8A8B2D4B,
+	CollisionBroadcaster2D_add_playerExitedCollision_m4AE6DA6A5103E52E3E92FDD0D84177286012E5B7,
+	CollisionBroadcaster2D_remove_playerExitedCollision_m4202312297B01E46D87CBEE0C0B4785A5F3822F7,
+	CollisionBroadcaster2D_add_playerEnteredTrigger_mE0AA851EE472649D1E47D031BD5C7D64F1A8F42B,
+	CollisionBroadcaster2D_remove_playerEnteredTrigger_m6958C879EBC8420563CCC37B77513CB537883A1F,
+	CollisionBroadcaster2D_add_playerExitedTrigger_m4D44CE7E8D4645601F7F56C9C9B4BA57A7A06D93,
+	CollisionBroadcaster2D_remove_playerExitedTrigger_mF42693764A8EFC1593DA6740BD5F4AB6B8E8302B,
+	CollisionBroadcaster2D_OnCollisionEnter2D_m7303C38583E6BE019851B95419ECAE1B1F57979E,
+	CollisionBroadcaster2D_OnCollisionExit2D_m0ECE53F8A7E0A77160F069EBE4191B4B5C13430D,
+	CollisionBroadcaster2D_OnTriggerEnter2D_mE5FDF8CC374F5BAF2581B58A60B3584BE09B25EB,
+	CollisionBroadcaster2D_OnTriggerExit2D_m59ECD3D1A43697BBE859BC20D6EE9EB657F03936,
+	CollisionBroadcaster2D__ctor_mBF8340BE93F6AC68B38472E1EB0FEB7ED1D1B481,
+	CollisionBroadcaster2D__cctor_m1D1A88059C8C92A72A99398AE7CDBD56DE6F3875,
+	CollisionBroadcaster3D_add_playerEnteredCollision_m5A420C623CF7EE0236185C6E1AE91226822BCE57,
+	CollisionBroadcaster3D_remove_playerEnteredCollision_m6564A39C2BA99B8DBB99EDE07D88DD6810BDBA12,
+	CollisionBroadcaster3D_add_playerExitedCollision_mAF1F3501F21AA98791D52FCB9FA5527038A038AC,
+	CollisionBroadcaster3D_remove_playerExitedCollision_m1D044D291BD87C2E3D7B4A61B5628A05A3C68D1B,
+	CollisionBroadcaster3D_add_playerEnteredTrigger_m4BDA8FA917B136DEBCC2960E5E113A398EB9197F,
+	CollisionBroadcaster3D_remove_playerEnteredTrigger_m9D9D23CCE8280798EF53B35AEDD4A53DF9A0E2E5,
+	CollisionBroadcaster3D_add_playerExitedTrigger_mF83D976F430C44B161C8563460C1D0BF12258A50,
+	CollisionBroadcaster3D_remove_playerExitedTrigger_mEC5336855720EF9CD3F184DCD4FF9A8427D70323,
+	CollisionBroadcaster3D_OnCollisionEnter_m4B2B35B694929D6B3FD124648939E92E5FFFA63E,
+	CollisionBroadcaster3D_OnCollisionExit_mE15D40F6B7E704604B502D41774AFB963284E043,
+	CollisionBroadcaster3D_OnTriggerEnter_mA02F7BEB53BEC995FF54602A55324A2D7B1D18AB,
+	CollisionBroadcaster3D_OnTriggerExit_m33280A6F8F353EF223DCBE2EF5259BE68CC81D2D,
+	CollisionBroadcaster3D__ctor_mD94B2F197F0068A7818D19EA5B6D0399F07E8D93,
+	CollisionBroadcaster3D__cctor_m3541374B79EF597EE1C7FA2BBD5360109CAAEEEA,
+	SelectionRoot_Update_mE74A316E6E54A3FF95F0ABA6D9C8A688BCF5887E,
+	SelectionRoot__ctor_m8A0A5D5FDCF90DBE79148A23C61B89B95DCBF91C,
+	EventHandler__ctor_m704B0C83E7C1344DAA4537B42F83DC515B450DAA,
+	EventHandler_Invoke_m3F33AEC23CCB6C6E02A38A97A885C0E63063270A,
+	EventHandler_BeginInvoke_m97AA7C1BFD8093D92976872F67A8EAC10404D5AB,
+	EventHandler_EndInvoke_mB3D8D44045FE69842598D700842A1CC4622158D3,
+	EventHandler__ctor_m210C1A935C7651339CB93182787F810A7BC8D756,
+	EventHandler_Invoke_m1DE134E855DC4B13EF40AA2C062D35D6806FC6DB,
+	EventHandler_BeginInvoke_m33888473EE667139D898C7F4498B1FDB4F70F5A0,
+	EventHandler_EndInvoke_m8393A57019C3EE2AC723B9EB413C9AD989BD3402,
+};
+static const int32_t s_InvokerIndices[54] = 
+{
+	14,
+	23,
+	23,
+	23,
+	23,
+	23,
+	9,
+	4,
+	111,
+	23,
+	49,
+	26,
+	9,
+	26,
+	28,
+	23,
+	111,
+	111,
+	111,
+	111,
+	111,
+	111,
+	111,
+	111,
+	26,
+	26,
+	26,
+	26,
+	23,
+	3,
+	111,
+	111,
+	111,
+	111,
+	111,
+	111,
+	111,
+	111,
+	26,
+	26,
+	26,
+	26,
+	23,
+	3,
+	23,
+	23,
+	163,
+	26,
+	166,
+	26,
+	163,
+	26,
+	166,
+	26,
+};
+extern const Il2CppCodeGenModule g_Unity_InteractiveTutorials_Core_ScriptsCodeGenModule;
+const Il2CppCodeGenModule g_Unity_InteractiveTutorials_Core_ScriptsCodeGenModule = 
+{
+	"Unity.InteractiveTutorials.Core.Scripts.dll",
+	54,
+	s_methodPointers,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};

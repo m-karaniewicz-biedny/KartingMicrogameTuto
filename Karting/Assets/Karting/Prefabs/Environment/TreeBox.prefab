@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 521230271}
   - component: {fileID: 443638675}
   - component: {fileID: 443638674}
+  - component: {fileID: 1242581364130445476}
   m_Layer: 0
   m_Name: TreeBox
   m_TagString: Untagged
@@ -54,6 +55,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -78,3 +80,15 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1242581364130445476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443638673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527360e16a2465b429cdd48018fc75b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

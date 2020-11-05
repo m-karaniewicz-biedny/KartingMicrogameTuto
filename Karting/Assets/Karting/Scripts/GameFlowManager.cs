@@ -154,9 +154,16 @@ public class GameFlowManager : MonoBehaviour
             if (m_ObjectiveManager.AreAllObjectivesCompleted())
                 EndGame(true);
 
+            
+
             if (m_TimeManager.IsFinite && m_TimeManager.IsOver)
                 EndGame(false);
         }
+    }
+
+    public void ForceEndGame(bool win)
+    {
+        EndGame(win);
     }
 
     void EndGame(bool win)

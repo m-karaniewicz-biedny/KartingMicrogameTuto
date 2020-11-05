@@ -6,28 +6,30 @@ public class Wiggle : MonoBehaviour
 {
     private Vector3 savedScale;
 
-    public Vector3 scaleMultiplier = new Vector3(1.5f, 1.2f, 1.5f);
-    private float timeScale = 4f;
-    private float offset;
+    internal Vector3 scaleMultiplier = new Vector3(2f, 2f, 2f);
+    internal bool randomOffsetOn = true;
+    
+    private float timeScale = 2f;
+    private float yTimeMult = 0.5f;
 
-    private float yTimeMult = 2f;
+    private float offset;
 
     private void Start()
     {
-        offset = 0;//= Random.Range(-1, 1f);
+        offset = randomOffsetOn ? Random.Range(-1, 1f) : 0;
         savedScale = transform.localScale;
     }
 
     private void Update()
     {
-        float sin = (Mathf.Sin(Time.time * timeScale + offset) + 1) / 2;
-        float ySin = (Mathf.Sin(Time.time * timeScale + offset * yTimeMult) + 1) / 2;
+        float XZSin = (Mathf.Sin(Time.time * timeScale + offset) + 1) / 2;
+        float ZSin = (Mathf.Sin(Time.time * timeScale * yTimeMult + offset) + 1) / 2;
 
         transform.localScale = new Vector3
-            (Mathf.Lerp(savedScale.x, savedScale.x * scaleMultiplier.x, sin)
-            , Mathf.Lerp(savedScale.y, savedScale.y * scaleMultiplier.y, ySin)
-            , Mathf.Lerp(savedScale.z, savedScale.z * scaleMultiplier.z, 1 - sin)
-            ); ;
+            (Mathf.Lerp(savedScale.x, savedScale.x * scaleMultiplier.x, XZSin)
+            , Mathf.Lerp(savedScale.y, savedScale.y * scaleMultiplier.y, ZSin)
+            , Mathf.Lerp(savedScale.z, savedScale.z * scaleMultiplier.z, 1 - XZSin)
+            );
     }
 
 }

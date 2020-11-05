@@ -461,6 +461,11 @@ PrefabInstance:
       propertyPath: RotationSpeed
       value: 1.3
       objectReference: {fileID: 0}
+    - target: {fileID: 4909671394904518764, guid: 38c6b1d38cb775f48b1893d1577f2748,
+        type: 3}
+      propertyPath: BounceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 09f715e4d9c95e848945e7702f9bab46, type: 3}
     - target: {fileID: 5351909826681473200, guid: 38c6b1d38cb775f48b1893d1577f2748,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7366,6 +7371,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 777161546, guid: b26c4a65cf4c6475a92bfd03c2c3282b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 777161547, guid: b26c4a65cf4c6475a92bfd03c2c3282b, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -7374,6 +7383,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1040317840929840153, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1040317842861082217, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1315839542190839936, guid: b26c4a65cf4c6475a92bfd03c2c3282b,
         type: 3}
@@ -13083,7 +13102,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1207105314}
-  m_LocalRotation: {x: 0.018027129, y: 0.00000008880949, z: 0.0000051641, w: -0.9998376}
+  m_LocalRotation: {x: 0.018027129, y: 0.00000008880946, z: 0.0000051641, w: -0.9998376}
   m_LocalPosition: {x: 18.39, y: 2.25, z: -3.9099998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -15655,7 +15674,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1389235981}
-  m_LocalRotation: {x: 0.018027129, y: 0.00000008880949, z: 0.0000051641, w: -0.9998376}
+  m_LocalRotation: {x: 0.018027129, y: 0.00000008880946, z: 0.0000051641, w: -0.9998376}
   m_LocalPosition: {x: 18.39, y: 2.25, z: -3.9099998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -16248,6 +16267,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ObjectiveLaps
       objectReference: {fileID: 0}
+    - target: {fileID: 1902712905063461265, guid: 9982527ae59625f4db19031743e8e79d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1902712905063461279, guid: 9982527ae59625f4db19031743e8e79d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16306,7 +16330,7 @@ PrefabInstance:
     - target: {fileID: 3368944771209025263, guid: 9982527ae59625f4db19031743e8e79d,
         type: 3}
       propertyPath: lapsToComplete
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9982527ae59625f4db19031743e8e79d, type: 3}
@@ -23295,7 +23319,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1902712905310690196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23308,16 +23332,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615df6872e8eea0418b3f5445a019294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameMode: 0
+  gameMode: 2
   targetName: 
-  title: 
+  title: Win the race.
   description: 
   isOptional: 0
-  delayVisible: 0
+  delayVisible: 5
   isTimed: 0
   totalTimeInSecs: 0
-  displayMessage: {fileID: 0}
-  lapsToComplete: 0
+  displayMessage: {fileID: 1902712905310690204}
+  lapsToComplete: 1
   notificationLapsRemainingThreshold: 1
 --- !u!114 &1902712905310690204
 MonoBehaviour:
